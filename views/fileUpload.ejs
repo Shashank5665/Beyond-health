@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="uploadFile.css" />
+    <title>File upload</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container2">
+        <h1>Upload your file</h1>
+        <form action="/uploadFile" method="POST">
+          <div class="chooseFile">
+            <label for="files" class="file">Select a PDF</label>
+            <input id="files" type="file" name="file" />
+          </div>
+          <input class="uploadFile" type="submit" value="Upload" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

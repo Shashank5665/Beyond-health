@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="download.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container_person">
+        <div class="person">
+          <h1>User Details</h1>
+          <p class="personal-details">Name : <%=user_name%></p>
+          <p class="personal-details">DOB : <%=birth%></p>
+          <p class="personal-details">Gender : <%=user_gender%></p>
+        </div>
+      </div>
+
+      <div class="lists">
+        <div class="file_list">
+          <h3>Files list</h3>
+          <% file_data.forEach((el) => {%>
+          <a class="items" href="/file_content/<%=el.id%>"><%= el.name %></a>
+          <p class="time"><%= el.createdAt %></p>
+          <hr />
+          <% })%>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+Beyond Health
+
+Backend Assignment
+
+Problem Statement:
+
+In this assignment, you will have to design a 4-page web app,
+    ● The first screen is a user data form, which will collect name, date of birth, and gender
+    
+    ● The second screen is a screen where the user will be asked to input a PDF file
+        ○ The file will contain a table with multiple rows and columns
+        ○ There will be a ‘submit’ button
+
+    ● The third screen is a display screen
+        ○ This screen should display the uploaded files list, the total number of rows, the time of
+        upload, and user details.
+        ○ The items should be clickable, and they should take to the last page, which will be the
+        file details page.
+
+    ● The last page will display the rows corresponding to the selected files and other detail.
+        ○ Formatting is not that important
+
+Evaluation Parameters:
+
+● Completeness - all components of the problem should work for the average user
+● Architecture (how extensible is the code to solve future enhancements).
+● Code quality.
+Although, node.js is the preferred programming language. You are free to choose the
+programming language and database
+
